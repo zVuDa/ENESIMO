@@ -35,7 +35,8 @@ document.querySelector("#next1").onclick = e =>{
     for(let i=0, tam=hijos.length; i<tam-2 ;i++){
         if(hijos[i].classList.contains('hide')!==true){
             hijos[i].classList.add('hide');
-            indice = i;
+            indice = i; if(indice===8){
+                indice = 0;}
            
         }
     }
@@ -43,10 +44,10 @@ document.querySelector("#next1").onclick = e =>{
         hijos[i].classList.remove('hide');
       
     }
-    console.log(hijos[6])
-    if(indice===6){
-        indice = 0;
-    }
+    // console.log(indice)
+    // if(indice===8){
+    //     indice = 0;
+    // }
 
     //hide.style = `display:block`
 
