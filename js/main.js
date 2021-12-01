@@ -1,4 +1,5 @@
  "use strict"
+const hide = document.querySelector(".hide");
 
  var slideIndex = 1;
 showSlides(slideIndex);
@@ -28,7 +29,26 @@ function showSlides(n) {
 
 
 document.querySelector("#next1").onclick = e =>{
-    e.preventDefault();
-     console.log(e)
-}
+    e.preventDefault(); 
+    let indice = 0;
+    let hijos = e.target.parentElement.parentElement.children;
+    for(let i=0, tam=hijos.length; i<tam-2 ;i++){
+        if(hijos[i].classList.contains('hide')!==true){
+            hijos[i].classList.add('hide');
+            indice = i;
+           
+        }
+    }
+    for(let i = indice; i<indice+3; i++){
+        hijos[i].classList.remove('hide');
+      
+    }
+    console.log(hijos[6])
+    if(indice===6){
+        indice = 0;
+    }
+
+    //hide.style = `display:block`
+
+    }
  
