@@ -118,12 +118,13 @@ body {
     height: 5vh;
     background-color: rgb(194, 10, 10);
     z-index: 6;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 700;
     color: white;
     text-align: center;
     font-family: "Open Sans", sans-serif;
     padding-top: 1.5vh;
+    letter-spacing: .03vw;
 }
 
 .search {
@@ -252,12 +253,13 @@ body {
     height: 5vh;
     background-color: rgb(194, 10, 10);
     z-index: 6;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 700;
     color: white;
     text-align: center;
     font-family: "Open Sans", sans-serif;
     padding-top: 1.5vh;
+    letter-spacing: .03vw;
 }
 
 .figurita {
@@ -330,12 +332,14 @@ body {
     height: 5vh;
     background-color: rgb(194, 10, 10);
     z-index: 6;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 700;
     color: white;
     text-align: center;
     font-family: "Open Sans", sans-serif;
     padding-top: 1.5vh;
+    letter-spacing: .03vw;
+
 }
 
 .arrow3 {
@@ -415,5 +419,8 @@ body {
 }
 
 .hide {
+    display: none;
+}
+.hide2 {
     display: none;
 }
