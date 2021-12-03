@@ -8,7 +8,9 @@
   width: 100vw;
   /* overflow: hidden; */
 }
-::-webkit-scrollbar {display: none;}
+::-webkit-scrollbar {
+  display: none;
+}
 
 body {
   block-size: 100vw;
@@ -58,7 +60,7 @@ body {
   font-weight: 550;
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
-  font-size: clamp(.65vw,05vw,.80vw);
+  font-size: clamp(0.65vw, 05vw, 0.8vw);
   z-index: 4;
 }
 
@@ -74,8 +76,9 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.bfriday {margin-top: -20vh;
-  width: 35vw;
+.bfriday {
+  margin-top: -120vh;
+  width: 50vw;
 }
 
 .desc50 {
@@ -83,13 +86,13 @@ body {
   background-color: black;
   color: white;
   z-index: 5;
-  top: 80vh;
+  top: 15vh;
   text-align: center;
-  height: 8vh;
-  padding-top: 2.6vh;
+  height: 3vh;
+  padding-top: 1vh;
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
-  font-size: 1.6vw;
+  font-size: 2.1vw;
   left: 2.6vw;
   margin-right: 4.9vw;
 }
@@ -98,24 +101,24 @@ body {
   position: relative;
   width: 100vw;
   display: grid;
-  grid-template-columns: repeat(9, 29.3vw);
-  column-gap: 3.5vw;
+  grid-template-columns: repeat(9, 29.1vw);
+  column-gap: 3.75vw;
 }
 
 .antonio {
   position: relative;
-  top: 81.5vh;
-  width: 29.5vw;
-  height: 62vh;
-  left: -.2vw;
+  top: 14.5vh;
+  width: 29.1vw;
+  height: 20vh;
+  left: -9.6vw;
 }
 
 .rec {
   position: relative;
-  left: 21.3vw;
-  top: 19vh;
+  left: 11.5vw;
+  top: -6vh;
   width: 8vw;
-  height: 5vh;
+  height: 2vh;
   background-color: rgb(194, 10, 10);
   z-index: 6;
   font-size: 0.78vw;
@@ -123,7 +126,7 @@ body {
   color: white;
   text-align: center;
   font-family: "Open Sans", sans-serif;
-  padding-top: 1.5vh;
+  padding-top: 0.75vh;
   letter-spacing: 0.03vw;
 }
 
@@ -155,15 +158,15 @@ body {
 .prev {
   position: relative;
   z-index: 20;
-  top: 111vh;
-  left: -130.2vw;
+  top: 25vh;
+  left: -130.5vw;
   margin: 0;
 }
 
 .next {
   z-index: 20;
-  top: 111vh;
-  left: -1.1vw;
+  top: 25vh;
+  left: -1.5vw;
 }
 
 .numbertext {
@@ -203,13 +206,13 @@ body {
   background-color: black;
   color: white;
   z-index: 5;
-  top: 100vh;
+  top: 15vh;
   text-align: center;
-  height: 8vh;
-  padding-top: 2.6vh;
+  height: 3vh;
+  padding-top: 1vh;
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
-  font-size: 1.6vw;
+  font-size: 2.1vw;
   left: 2.6vw;
   margin-right: 4.9vw;
 }
@@ -217,7 +220,6 @@ body {
 .gallery2-container {
   position: relative;
   width: 100vw;
-  top: 20vh;
   display: grid;
   grid-template-columns: repeat(9, 29.3vw);
   column-gap: 3.5vw;
@@ -225,8 +227,32 @@ body {
 
 .figcap {
   position: relative;
-  top: 77.65vh;
-  left: 0vw;
+  top: 12.1vh;
+  left: -9vw;
+  z-index: 10;
+  width: 29.5vw;
+  padding-top: 0.75vh;
+  font-family: "Oswald", sans-serif;
+  font-size: 1vw;
+  font-weight: 500;
+  letter-spacing: 0.07vw;
+}
+.figcap2 {
+  position: relative;
+  top: 12vh;
+  left: -9vw;
+  z-index: 10;
+  width: 29.5vw;
+  padding-top: 0.75vh;
+  font-family: "Oswald", sans-serif;
+  font-size: 1vw;
+  font-weight: 500;
+  letter-spacing: 0.07vw;
+}
+.figcap3 {
+  position: relative;
+  top: vh;
+  left: -9vw;
   z-index: 10;
   width: 29.5vw;
   padding-top: 0.75vh;
@@ -241,15 +267,15 @@ body {
 }
 
 .price {
-  font-size: 1vw
+  font-size: 1vw;
 }
 
 .rec2 {
   position: relative;
-  left: 21.3vw;
-  top: 19vh;
+  left: 11.5vw;
+  top: -6vh;
   width: 8vw;
-  height: 5vh;
+  height: 2vh;
   background-color: rgb(194, 10, 10);
   z-index: 6;
   font-size: 0.78vw;
@@ -257,20 +283,22 @@ body {
   color: white;
   text-align: center;
   font-family: "Open Sans", sans-serif;
-  padding-top: 1.5vh;
+  padding-top: 0.75vh;
   letter-spacing: 0.03vw;
 }
 
 .figurita {
+  position: relative;
+  left: -10vw;
   display: grid;
-  grid-template-columns: repeat(2, 40vw);
-  column-gap: 7.5vw;
+  grid-template-columns: repeat(2, 43vw);
+  column-gap: 4.5vw;
 }
 
 .imgdiv {
-  width: 46.8vw;
+  width: 47vw;
   position: relative;
-  top: 117vh;
+  top: 47vh;
 }
 
 .arrow2 {
@@ -284,15 +312,15 @@ body {
 .prev2 {
   position: relative;
   z-index: 20;
-  top: 111vh;
+  top: 25vh;
   left: -130.2vw;
   margin: 0;
 }
 
 .next2 {
   z-index: 20;
-  top: 111vh;
-  left: -1.1vw;
+  top: 25vh;
+  left: -1.5vw;
 }
 
 .desc30 {
@@ -300,13 +328,13 @@ body {
   background-color: black;
   color: white;
   z-index: 5;
-  top: 137vh;
+  top: 4vh;
   text-align: center;
-  height: 8vh;
-  padding-top: 2.6vh;
+  height: 3vh;
+  padding-top: 1vh;
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
-  font-size: 1.6vw;
+  font-size: 2.1vw;
   left: 2.6vw;
   margin-right: 4.9vw;
 }
@@ -316,7 +344,7 @@ body {
 .gallery3-container {
   position: relative;
   width: 100vw;
-  top: 57vh;
+  top: -11vh;
   display: grid;
   grid-template-columns: repeat(9, 29.3vw);
   column-gap: 3.5vw;
@@ -324,10 +352,10 @@ body {
 
 .rec3 {
   position: relative;
-  left: 21.3vw;
-  top: 19vh;
+  left: 11.5vw;
+  top: -6vh;
   width: 8vw;
-  height: 5vh;
+  height: 2vh;
   background-color: rgb(194, 10, 10);
   z-index: 6;
   font-size: 0.78vw;
@@ -335,7 +363,7 @@ body {
   color: white;
   text-align: center;
   font-family: "Open Sans", sans-serif;
-  padding-top: 1.5vh;
+  padding-top: 0.75vh;
   letter-spacing: 0.03vw;
 }
 
@@ -349,26 +377,26 @@ body {
 
 .prev3 {
   z-index: 20;
-  top: 111vh;
+  top: 25vh;
   left: -130.2vw;
   margin: 0;
 }
 
 .next3 {
   z-index: 20;
-  top: 111vh;
-  left: -1.1vw;
+  top: 25vh;
+  left: -1.5vw;
 }
 
 .redes {
   position: relative;
-  top: 146vh;
+  top: 22vh;
   left: 40%;
 }
 
 .icon {
   width: 2.5vw;
-  height: 5vh;
+  height: 2.5vh;
   border: 2px solid black;
   border-radius: 50%;
   margin-right: 1.2vw;
@@ -379,7 +407,7 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
-  top: 148vh;
+  top: 18vh;
   font-family: "Open Sans", sans-serif;
   font-size: 0.83vw;
 }

@@ -74,8 +74,8 @@
     font-family: "Open Sans", sans-serif;
   }
   
-  .bfriday {
-    width: 35vw;
+  .bfriday {margin-top: -45vh;
+    width: 36vw;
   }
   
   .desc50 {
