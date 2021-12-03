@@ -88,10 +88,10 @@
     top: 80vh;
     text-align: center;
     height: 8vh;
-    padding-top: 2vh;
+    padding-top: 2.9vh;
     font-family: "Open Sans", sans-serif;
     font-weight: 800;
-    font-size: 1.9vw;
+    font-size: 2vw;
     left: 2.6vw;
     margin-right: 4.9vw;
   }
@@ -108,14 +108,14 @@
     position: relative;
     top: 81.5vh;
     width: 29.1vw;
-    height: 50vh;
+    height: 45vh;
     left: -1.5vw;
   }
   
   .rec {
     position: relative;
     left: 19.6vw;
-    top: 31vh;
+    top: 36vh;
     width: 8vw;
     height: 4vh;
     background-color: rgb(194, 10, 10);
@@ -208,10 +208,10 @@
     top: 100vh;
     text-align: center;
     height: 8vh;
-    padding-top: 2vh;
+    padding-top: 2.9vh;
     font-family: "Open Sans", sans-serif;
     font-weight: 800;
-    font-size: 1.9vw;
+    font-size: 2vw;
     left: 2.6vw;
     margin-right: 4.9vw;
   }
@@ -249,7 +249,7 @@
   .rec2 {
     position: relative;
     left: 19.6vw;
-    top: 31vh;
+    top: 36vh;
     width: 8vw;
     height: 4vh;
     background-color: rgb(194, 10, 10);
@@ -265,7 +265,7 @@
   
   .figurita {
     position: relative;
-    left: -1vw;
+    left: -1.2vw;
     display: grid;
     grid-template-columns: repeat(2, 39vw);
     column-gap: 8.5vw;
@@ -307,10 +307,10 @@
     top: 137vh;
     text-align: center;
     height: 8vh;
-    padding-top: 2vh;
+    padding-top: 2.9vh;
     font-family: "Open Sans", sans-serif;
     font-weight: 800;
-    font-size: 1.9vw;
+    font-size: 2vw;
     left: 2.6vw;
     margin-right: 4.9vw;
   }
@@ -329,7 +329,7 @@
   .rec3 {
     position: relative;
     left: 19.6vw;
-    top: 31vh;
+    top: 36vh;
     width: 8vw;
     height: 4vh;
     background-color: rgb(194, 10, 10);
