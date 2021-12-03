@@ -8,7 +8,9 @@
   width: 100vw;
   /* overflow: hidden; */
 }
-::-webkit-scrollbar {display: none;}
+::-webkit-scrollbar {
+  display: none;
+}
 
 body {
   block-size: 100vw;
@@ -58,7 +60,7 @@ body {
   font-weight: 550;
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
-  font-size: clamp(.65vw,05vw,.80vw);
+  font-size: clamp(0.65vw, 05vw, 0.8vw);
   z-index: 4;
 }
 
@@ -89,7 +91,7 @@ body {
   padding-top: 2vh;
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
-  font-size: 1.6vw;
+  font-size: 1.9vw;
   left: 2.6vw;
   margin-right: 4.9vw;
 }
@@ -98,24 +100,24 @@ body {
   position: relative;
   width: 100vw;
   display: grid;
-  grid-template-columns: repeat(9, 29.3vw);
-  column-gap: 3.5vw;
+  grid-template-columns: repeat(9, 29.1vw);
+  column-gap: 3.75vw;
 }
 
 .antonio {
   position: relative;
   top: 81.5vh;
-  width: 29.5vw;
-  height: 62vh;
-  left: -.2vw;
+  width: 29.1vw;
+  height: 50vh;
+  left: -1.5vw;
 }
 
 .rec {
   position: relative;
-  left: 21.3vw;
-  top: 19vh;
+  left: 19.6vw;
+  top: 31vh;
   width: 8vw;
-  height: 5vh;
+  height: 4vh;
   background-color: rgb(194, 10, 10);
   z-index: 6;
   font-size: 0.78vw;
@@ -156,14 +158,14 @@ body {
   position: relative;
   z-index: 20;
   top: 111vh;
-  left: -130.2vw;
+  left: -130.5vw;
   margin: 0;
 }
 
 .next {
   z-index: 20;
   top: 111vh;
-  left: -1.1vw;
+  left: -1.5vw;
 }
 
 .numbertext {
@@ -209,7 +211,7 @@ body {
   padding-top: 2vh;
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
-  font-size: 1.6vw;
+  font-size: 1.9vw;
   left: 2.6vw;
   margin-right: 4.9vw;
 }
@@ -241,15 +243,15 @@ body {
 }
 
 .price {
-  font-size: 1vw
+  font-size: 1vw;
 }
 
 .rec2 {
   position: relative;
-  left: 21.3vw;
-  top: 19vh;
+  left: 19.6vw;
+  top: 31vh;
   width: 8vw;
-  height: 5vh;
+  height: 4vh;
   background-color: rgb(194, 10, 10);
   z-index: 6;
   font-size: 0.78vw;
@@ -262,13 +264,15 @@ body {
 }
 
 .figurita {
+  position: relative;
+  left: -1vw;
   display: grid;
-  grid-template-columns: repeat(2, 40vw);
-  column-gap: 7.5vw;
+  grid-template-columns: repeat(2, 39vw);
+  column-gap: 8.5vw;
 }
 
 .imgdiv {
-  width: 46.8vw;
+  width: 47vw;
   position: relative;
   top: 117vh;
 }
@@ -292,7 +296,7 @@ body {
 .next2 {
   z-index: 20;
   top: 111vh;
-  left: -1.1vw;
+  left: -1.5vw;
 }
 
 .desc30 {
@@ -306,7 +310,7 @@ body {
   padding-top: 2vh;
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
-  font-size: 1.6vw;
+  font-size: 1.9vw;
   left: 2.6vw;
   margin-right: 4.9vw;
 }
@@ -324,10 +328,10 @@ body {
 
 .rec3 {
   position: relative;
-  left: 21.3vw;
-  top: 19vh;
+  left: 19.6vw;
+  top: 31vh;
   width: 8vw;
-  height: 5vh;
+  height: 4vh;
   background-color: rgb(194, 10, 10);
   z-index: 6;
   font-size: 0.78vw;
@@ -357,7 +361,7 @@ body {
 .next3 {
   z-index: 20;
   top: 111vh;
-  left: -1.1vw;
+  left: -1.5vw;
 }
 
 .redes {
