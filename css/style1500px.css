@@ -1,25 +1,22 @@
 * {
     box-sizing: border-box;
     max-width: 100vw;
-}
-
-.html {
+  }
+  
+  .html {
     block-size: 100vw;
     width: 100vw;
     /* overflow: hidden; */
-}
-
-::-webkit-scrollbar {
-    display: none;
-}
-
-body {
+  }
+  ::-webkit-scrollbar {display: none;}
+  
+  body {
     block-size: 100vw;
     margin: 0;
     max-width: 100vw;
-}
-
-.header {
+  }
+  
+  .header {
     max-width: 100vw;
     height: 1cm;
     text-align: center;
@@ -31,28 +28,28 @@ body {
     font-size: 0.55vw;
     letter-spacing: 0.06cm;
     z-index: 5;
-}
-
-.portada {
+  }
+  
+  .portada {
     position: absolute;
     width: 100%;
     z-index: -8;
-}
-
-.logo {
+  }
+  
+  .logo {
     position: relative;
     top: 5vh;
     left: 2.5vw;
     z-index: 2;
-}
-
-.menu {
+  }
+  
+  .menu {
     position: relative;
     display: flex;
     z-index: 2;
-}
-
-.section {
+  }
+  
+  .section {
     position: relative;
     top: 5vh;
     left: 7vw;
@@ -61,11 +58,11 @@ body {
     font-weight: 550;
     text-transform: uppercase;
     font-family: "Open Sans", sans-serif;
-    font-size: clamp(.65vw, 05vw, .80vw);
+    font-size: clamp(.65vw,05vw,.80vw);
     z-index: 4;
-}
-
-.promo {
+  }
+  
+  .promo {
     z-index: 4;
     position: relative;
     top: 70vh;
@@ -75,14 +72,13 @@ body {
     align-items: center;
     background-color: white;
     font-family: "Open Sans", sans-serif;
-}
-
-.bfriday {
-    margin-top: -20vh;
+  }
+  
+  .bfriday {margin-top: -13vh;
     width: 35vw;
-}
-
-.desc50 {
+  }
+  
+  .desc50 {
     position: relative;
     background-color: black;
     color: white;
@@ -90,33 +86,33 @@ body {
     top: 80vh;
     text-align: center;
     height: 8vh;
-    padding-top: 2.6vh;
+    padding-top: 2vh;
     font-family: "Open Sans", sans-serif;
     font-weight: 800;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     left: 2.6vw;
     margin-right: 4.9vw;
-}
-
-.gallery-container {
+  }
+  
+  .gallery-container {
     position: relative;
     width: 100vw;
     display: grid;
     grid-template-columns: repeat(9, 29.3vw);
     column-gap: 3.5vw;
-}
-
-.antonio {
+  }
+  
+  .antonio {
     position: relative;
     top: 81.5vh;
     width: 29.5vw;
     height: 62vh;
-    left: -.2vw;
-}
-
-.rec {
+    left: 0.2vw;
+  }
+  
+  .rec {
     position: relative;
-    left: 21.3vw;
+    left: 21.72vw;
     top: 19vh;
     width: 8vw;
     height: 5vh;
@@ -129,81 +125,80 @@ body {
     font-family: "Open Sans", sans-serif;
     padding-top: 1.5vh;
     letter-spacing: 0.03vw;
-}
-
-.search {
+  }
+  
+  .search {
     position: relative;
     z-index: 5;
     width: 2.5vw;
     height: 2.5vh;
     left: 92.3vw;
     top: 0.9vh;
-}
-
-.cart {
+  }
+  
+  .cart {
     position: relative;
     z-index: 5;
     width: 2.5vw;
     height: 2.5vh;
     left: 91.8vw;
     top: 0.9vh;
-}
-
-.arrow {
+  }
+  
+  .arrow {
     position: relative;
     width: 2.5vw;
     opacity: 50%;
     z-index: 40;
-}
-
-.prev {
+  }
+  
+  .prev {
     position: relative;
     z-index: 20;
     top: 111vh;
-    left: -130.2vw;
+    left: -130.5vw;
     margin: 0;
-}
-
-.next {
+  }
+  
+  .next {
     z-index: 20;
     top: 111vh;
-    left: -1.1vw;
-}
-
-.numbertext {
+    left: -1.3vw;
+  }
+  
+  .numbertext {
     position: absolute;
     visibility: hidden;
-}
-
-
-/* Fading animation */
-
-.fade {
+  }
+  
+  /* Fading animation */
+  
+  .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
+  }
+  
+  @-webkit-keyframes fade {
     from {
-        opacity: 0.4;
+      opacity: 0.4;
     }
     to {
-        opacity: 1;
+      opacity: 1;
     }
-}
-
-@keyframes fade {
+  }
+  
+  @keyframes fade {
     from {
-        opacity: 0.4;
+      opacity: 0.4;
     }
     to {
-        opacity: 1;
+      opacity: 1;
     }
-}
-
-.desc40 {
+  }
+  
+  .desc40 {
     position: relative;
     background-color: black;
     color: white;
@@ -211,24 +206,24 @@ body {
     top: 100vh;
     text-align: center;
     height: 8vh;
-    padding-top: 2.6vh;
+    padding-top: 2vh;
     font-family: "Open Sans", sans-serif;
     font-weight: 800;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     left: 2.6vw;
     margin-right: 4.9vw;
-}
-
-.gallery2-container {
+  }
+  
+  .gallery2-container {
     position: relative;
     width: 100vw;
     top: 20vh;
     display: grid;
     grid-template-columns: repeat(9, 29.3vw);
     column-gap: 3.5vw;
-}
-
-.figcap {
+  }
+  
+  .figcap {
     position: relative;
     top: 77.65vh;
     left: 0vw;
@@ -239,19 +234,19 @@ body {
     font-size: 1vw;
     font-weight: 500;
     letter-spacing: 0.07vw;
-}
-
-.span {
+  }
+  
+  .span {
     text-decoration: line-through;
-}
-
-.price {
+  }
+  
+  .price {
     font-size: 1vw
-}
-
-.rec2 {
+  }
+  
+  .rec2 {
     position: relative;
-    left: 21.3vw;
+    left: 21.72vw;
     top: 19vh;
     width: 8vw;
     height: 5vh;
@@ -264,43 +259,43 @@ body {
     font-family: "Open Sans", sans-serif;
     padding-top: 1.5vh;
     letter-spacing: 0.03vw;
-}
-
-.figurita {
+  }
+  
+  .figurita {
     display: grid;
     grid-template-columns: repeat(2, 40vw);
     column-gap: 7.5vw;
-}
-
-.imgdiv {
+  }
+  
+  .imgdiv {
     width: 46.8vw;
     position: relative;
     top: 117vh;
-}
-
-.arrow2 {
+  }
+  
+  .arrow2 {
     position: relative;
     z-index: 20;
     width: 2.5vw;
     opacity: 50%;
     z-index: 40;
-}
-
-.prev2 {
+  }
+  
+  .prev2 {
     position: relative;
     z-index: 20;
     top: 111vh;
-    left: -130.2vw;
+    left: -130.5vw;
     margin: 0;
-}
-
-.next2 {
+  }
+  
+  .next2 {
     z-index: 20;
     top: 111vh;
-    left: -1.1vw;
-}
-
-.desc30 {
+    left: -1.3vw;
+  }
+  
+  .desc30 {
     position: relative;
     background-color: black;
     color: white;
@@ -308,29 +303,28 @@ body {
     top: 137vh;
     text-align: center;
     height: 8vh;
-    padding-top: 2.6vh;
+    padding-top: 2vh;
     font-family: "Open Sans", sans-serif;
     font-weight: 800;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     left: 2.6vw;
     margin-right: 4.9vw;
-}
-
-
-/* .descuento30{position: relative; display: flex; justify-content: center; align-items: center; max-width: 100vw; top: 20vh;} */
-
-.gallery3-container {
+  }
+  
+  /* .descuento30{position: relative; display: flex; justify-content: center; align-items: center; max-width: 100vw; top: 20vh;} */
+  
+  .gallery3-container {
     position: relative;
     width: 100vw;
     top: 57vh;
     display: grid;
     grid-template-columns: repeat(9, 29.3vw);
     column-gap: 3.5vw;
-}
-
-.rec3 {
+  }
+  
+  .rec3 {
     position: relative;
-    left: 21.3vw;
+    left: 21.72vw;
     top: 19vh;
     width: 8vw;
     height: 5vh;
@@ -343,58 +337,58 @@ body {
     font-family: "Open Sans", sans-serif;
     padding-top: 1.5vh;
     letter-spacing: 0.03vw;
-}
-
-.arrow3 {
+  }
+  
+  .arrow3 {
     position: relative;
     z-index: 20;
     width: 2.5vw;
     opacity: 50%;
     z-index: 40;
-}
-
-.prev3 {
+  }
+  
+  .prev3 {
     z-index: 20;
     top: 111vh;
-    left: -130.2vw;
+    left: -130.5vw;
     margin: 0;
-}
-
-.next3 {
+  }
+  
+  .next3 {
     z-index: 20;
     top: 111vh;
-    left: -1.1vw;
-}
-
-.redes {
+    left: -1.3vw;
+  }
+  
+  .redes {
     position: relative;
     top: 146vh;
     left: 40%;
-}
-
-.icon {
+  }
+  
+  .icon {
     width: 2.5vw;
     height: 5vh;
     border: 2px solid black;
     border-radius: 50%;
     margin-right: 1.2vw;
     padding: 0.5vw;
-}
-
-.aviso {
+  }
+  
+  .aviso {
     position: relative;
     display: flex;
     justify-content: center;
     top: 148vh;
     font-family: "Open Sans", sans-serif;
     font-size: 0.83vw;
-}
-
-.avisosecc {
+  }
+  
+  .avisosecc {
     margin-right: 1.3vw;
-}
-
-.logosaviso {
+  }
+  
+  .logosaviso {
     position: relative;
     width: 100%;
     display: flex;
@@ -402,28 +396,28 @@ body {
     top: 151vh;
     font-family: "Open Sans", sans-serif;
     margin-bottom: 20.5vh;
-}
-
-.logossecc {
+  }
+  
+  .logossecc {
     border: 1px solid rgba(0, 0, 0, 0.274);
     margin-right: 1.3vw;
     width: 2.5vw;
     height: 3vh;
     padding: 0.2vw;
-}
-
-.footer {
+  }
+  
+  .footer {
     position: relative;
     top: 133vh;
     text-align: center;
     font-family: "Arial", sans-serif;
     font-size: 0.7vw;
-}
-
-.hide {
+  }
+  
+  .hide {
     display: none;
-}
-
-.hide2 {
+  }
+  .hide2 {
     display: none;
-}
+  }
+  
